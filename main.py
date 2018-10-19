@@ -9,6 +9,8 @@ import time
 import multiprocessing
 from system_conf import *
 
+print "test"
+
 class Database:
     def __init__(self):
         self.host = REDIS_HOSTNAME
